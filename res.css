@@ -1,0 +1,384 @@
+@media(max-width: 1024px){
+    #home h1{
+        font-size: 2.8rem;
+    }
+    #home p{
+        font-size: 18px;
+    }
+    #services::before{
+        height: 1704px;
+    }
+}
+@media (max-width: 768px){
+.navbar h1{
+    font-size: 2.5rem;
+    padding: 25px 4px;
+}
+.navbar ul li a{
+    font-size: 15px;
+    padding: 4px 5px;
+}
+.navbar{
+    width: 120%;
+}
+.navbar ul li{
+    list-style: none;
+    padding: 10px 45px;
+}
+#home{
+    display: flex;
+    width: 120%;
+}
+#home::before{
+    width: 120%;
+}
+#home h1{
+    font-size: 2.5rem;
+}
+#home p{
+    font-size: 17px;
+}
+.collage img{
+    width: 140%;
+}
+#vip{
+    width: 102%;
+}
+.text button{
+    font-size: 1.8rem;
+}
+.foot{
+    width: 120%;
+}
+/* Menus  */
+#services{
+    width: 120%;
+}
+#services::before{
+    content: "";
+    position: absolute;
+    background: url('image/ls.jpg');
+    width: 921px;
+    height: 1704px;
+    z-index: -1;
+    opacity: 0.7;
+}
+#delivery{
+    width: 120%;
+}
+.order h1{
+    font-size: 2rem;
+}
+.order p{
+    font-size: 1.5rem;
+}
+.order button{
+    font-size: 2rem;
+}
+#delivery img{
+    margin: 5px 80px;
+    
+} 
+/* Contact */
+#mid{
+    width: 120%;
+}
+#mid form{
+    height: 550px;
+    width: 380px;
+    padding: 10px 20px;
+    margin-top: 50px;
+}
+.details{
+    width: 120%;
+}
+}
+@media(max-width: 426px){
+    .navbar{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #logo img{
+        height: 106px;
+        width: 108px;
+    }
+    .navbar h1{
+        padding: 0px;
+        font-size: 2.5rem;
+    }
+    .navbar ul li{
+        padding: 8px 37px;
+    }
+    .navbar ul li a{
+        font-size: 17px;
+        padding: 5px 5px;
+    }
+    .navbar ul li a:hover{
+        border-radius: 10px;
+    }
+    #home{
+        width: 100%;
+        height: 400px;
+    }
+    #home::before{
+        width: 100%;
+        height: 510px;
+    }
+    #home h1{
+        font-size: 1.7rem;
+    }
+    #home p{
+        font-size: 17px;
+        padding: 10px 3px;
+    }
+    .collage{
+        margin-top: 20px;
+    }
+    .collage img{
+        height: 450px;
+        width: 100%;
+    }
+    #vip{
+     width: 95%;
+     padding: 20px 10px;
+     height: 130px;
+    }
+    .text h1{
+        font-size: 1rem;
+    }
+    .text p{
+        font-size: 20px;
+    }
+    .text button{
+        font-size: 1.2rem;
+    }
+    #vip img{
+        margin-left: 35px;
+        margin-right: 43px;
+    }
+    .foot{
+        width: 100%;
+        font-size: 10px;
+        height: 80px;
+    }
+
+    /* Menus pages */
+    /* Targeting menuss */
+
+    .ite{
+        width: 300px;
+        height: 450px;
+    }
+    #box1 h1{
+        width: 295px;
+        font-size: 40px;
+    }
+    .ex .rate li{
+        font-size: 17px;
+    }
+    .ex .name li{
+        font-size: 17px;
+    }
+    .momos .mrate li{
+        font-size: 17px;
+    }
+    .momos .mname li{
+        font-size: 17px;
+    }
+    #box2 h1{
+        width: 295px;
+        font-size: 40px;
+    }
+    .burger .brate li{
+        font-size: 17px;
+    }
+    .burger .bname li{
+        font-size: 17px;
+    }
+    #box3 h1{
+        width: 295px;
+        font-size: 40px;
+    }
+    .pasta .prate li{
+        font-size: 17px;
+    }
+    .pasta .pname li{
+        font-size: 17px;
+    }
+    #box5 h1{
+        width: 295px;
+        font-size: 40px;
+    }
+    .dosa .drate li{
+        font-size: 17px;
+    }
+    .dosa .dname li{
+        font-size: 17px;
+    }
+    #box4 h1{
+        width: 295px;
+        font-size: 40px;
+    }
+    .shake .srate li{
+        font-size: 17px;
+    }
+    .shake .sname li{
+        font-size: 17px;
+    }
+    #box6 h1{
+        width: 295px;
+        font-size: 40px;
+    }
+    #services{
+        width: 100%;
+    }
+    #services::before{
+        content: "";
+        position: absolute;
+        background: url('image/ls.jpg');
+        width: 100%;
+        height: 3300px;
+        z-index: -1;
+        opacity: 0.7;
+    }
+    #delivery{
+        width: 100%;
+    }
+    #delivery img{
+        margin: 2px 2px;
+        width: 200px;
+        height: 200px;   
+    } 
+    .order{
+        height: 200px;
+    }
+    .order h1{
+        font-size: 1.1rem;
+    }
+    .order p{
+        font-size: 17px;
+    }
+    .order button{
+        font-size: 1.2rem;
+        border-radius: 10px;
+    }
+    /* Contact us  */
+    #mid{
+        flex-wrap: wrap;
+        background: url('image/cb4.jpg');
+        height: 1120px;
+        width: 100%;
+    }
+    #mid form{
+        height: 470px;
+        width: 310px;
+        padding: 10px 20px;
+        margin-top: 50px;
+    }
+    #mid form input{
+        width: 200px;
+        border-radius: 8px;
+        font-size: 20px;
+    }
+    #mid form label{
+        font-size: 20px;
+        padding: 5px 0px;
+    }
+    #mid form h1{
+        font-size: 1.5rem;
+    }
+    #mid form textarea{
+        width: 300px;
+        height: 150px;
+    }
+    #mid form button{
+        font-size: 1rem;  
+    }
+    .details{
+        width: 100%;
+    }
+    .details b{
+        font-size: 1.2rem;
+    }
+    .details em a{
+        color: white;
+        text-decoration: none;
+        font-size: 10px;
+    }
+}
+@media(max-width: 376px){
+    .navbar ul li{
+        padding: 8px 27px;
+    }
+
+    .collage img{
+        height: 350px;
+    }
+    #home p{
+        font-size: 15px;
+        padding: 10px 3px;
+    }
+    #vip{
+        width: 94%;
+        padding: 20px 11px;
+       }
+    .text p{
+        font-size: 14px;
+    }
+}
+@media(max-width: 321px){
+    .navbar ul li{
+        padding: 8px 15px;
+    }
+    #home p{
+        font-size: 12px;
+    }
+    #home h1{
+        font-size: 23px;
+    }
+    .collage{
+        margin-top: 10px;
+    }
+    .collage img{
+        height: 250px;
+    }
+    #vip{
+        width: 93%;
+        height: 100px;
+    }
+    #vip img{
+        height: 60px;
+        width: 60px;
+    }
+    .text h1{
+        font-size: 15px;
+    }
+    .text p{
+        font-size: 12px;
+    }
+    .text button{
+        font-size: 14px;
+        width: 125px;
+        margin-top: 5px;
+    }
+    /* Contact us  */
+    #mid form{
+        height: 380px;
+        width: 248px;
+    }
+    #mid form textarea{
+        width: 240px;
+        height: 150px;
+    }
+    .details b{
+        font-size: 15px;
+    }
+    .details em a{
+        color: white;
+        text-decoration: none;
+        font-size: 8px;
+    }
+
+}

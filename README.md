@@ -3,7 +3,6 @@ Hello everyone
 
 Here I am with my first project on frontend web development. 
 I've created this food delivery website while learning frontend development so their is no backend support. 
-As of now the website only support desktop.
 
 Link of website : https://ab2602.github.io/Project-Foodweb/
 # Codes
